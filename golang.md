@@ -11,3 +11,6 @@ func foo() {
   count.Unlock()
 }
 ```
+
+# `nil` channels do stuff
+Sends and receives on nil channels block. It seems they are useful.
